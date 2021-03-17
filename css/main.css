@@ -1,0 +1,16 @@
+html {
+  font: 100%/1.15 serif;
+}
+
+body {
+  max-width: 48em;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+
+/*breakpoint*/
+@media (min-width: 48em) {
+  body {
+    font-size: 125%;
+  } 
+}
