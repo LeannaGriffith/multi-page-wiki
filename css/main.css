@@ -39,3 +39,8 @@ h2 {
   a {
     color: #fff;
   }
+
+  a:hover,
+a:focus {
+  background-color: #000;
+}
