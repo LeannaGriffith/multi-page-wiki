@@ -1,11 +1,24 @@
 html {
-  font: 100%/1.15 serif;
+  font: 98%/1.15 serif;
+      color: #fff;
+
 }
 
 body {
   max-width: 48em;
   padding: 0 5%;
   margin: 0 auto;
+  background-color: #000;
+}
+
+h1 {
+  font: 2.3em/1.5 Phosphate, serif;
+    color: #6DB4EF;
+}
+
+h2 {
+  font: 1.6em/1.5 Helvetica, serif;
+    color: #F6CD49;
 }
 
 /*breakpoint*/
@@ -20,5 +33,9 @@ body {
     grid-auto-flow: column;
     justify-content: start;
     gap: 0 2em;
+    list-style: none;
   }
   
+  a {
+    color: #fff;
+  }
