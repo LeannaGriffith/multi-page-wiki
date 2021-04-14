@@ -12,8 +12,10 @@ body {
 }
 
 h1 {
-  font: 3.5em/1.5 Pacifico, serif;
-  color: #6DB4EF;
+  font:5em/1.5 Pacifico, serif;
+  color: #003399;
+  text-align: center;
+  margin-top: 0em;
 }
 
 h2 {
@@ -58,10 +60,10 @@ nav {
 ul {
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: -40px;
+    margin-block-start: -2em;
+    margin-block-end: 2.5em;
+    margin-inline-start: -100px;
+    margin-inline-end: -1000px;
     padding-inline-start: 0px;
 }
 
