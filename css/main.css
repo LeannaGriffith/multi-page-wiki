@@ -21,6 +21,19 @@ h2 {
   color: #F6CD49;
 }
 
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+figcaption {
+  font-size: 0.8em;
+  line-height: 1.3;
+  margin-top: 0.5rem;
+}
+
 /*breakpoint*/
 @media (min-width: 48em) {
   body {
