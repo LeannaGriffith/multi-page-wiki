@@ -37,7 +37,7 @@ figcaption {
 }
 
 /*breakpoint*/
-@media (min-width: 48em) {
+@media (min-width: 50em) {
   body {
     font-size: 125%;
   }
@@ -46,7 +46,6 @@ figcaption {
     display: grid;
     grid-auto-flow: column;
     justify-content: start;
-    gap: 0 1em;
     list-style: none;
     text-decoration: underline;
 
@@ -55,23 +54,18 @@ figcaption {
 
 nav {
   display: block;
+  
 }
 
 ul {
     display: block;
     list-style-type: disc;
-    margin-block-start: -2em;
-    margin-block-end: 2.5em;
-    margin-inline-start: -100px;
-    margin-inline-end: -1000px;
-    padding-inline-start: 0px;
 }
 
 ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #003399;
 }
 .topnav a {
@@ -81,6 +75,8 @@ ul.topnav {
     text-align: center;
     padding: 20px 20px;
     text-decoration: none;
+    font: 0.85em/1.5 Helvetica, serif;
+
 }
 
   a {
